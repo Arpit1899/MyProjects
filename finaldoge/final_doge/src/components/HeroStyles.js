@@ -29,7 +29,7 @@ export const HeroStyles = styled.div`
         margin-left: 20px;
         border: 1px solid red;
         width: 100%;
-        margin-top: inherit;
+        margin-top: 140px;
         // height: 550px;
         // margin-left: 30px;
         align-items: center;
