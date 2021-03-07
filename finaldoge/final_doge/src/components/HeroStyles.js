@@ -4,10 +4,7 @@ import styled from 'styled-components';
 
 export const HeroStyles = styled.div`
     display: flex;
-    // margin: 8px;
     width: 100%;
-    
-    // margin-top: 9%;
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
@@ -15,23 +12,13 @@ export const HeroStyles = styled.div`
 
     
 
-    // .h1 {
-    //     top: 20p;
-    //     font-size: 20px;
-    //     font-weight: bold;
-    //     color: black;
-    //     align-start: flex-start;
-    //     margin-left: 16px;
-
-    // }
+  
     
     .boxwrap {
         margin-left: 20px;
         border: 1px solid red;
         width: 100%;
         margin-top: 140px;
-        // height: 550px;
-        // margin-left: 30px;
         align-items: center;
         
         
@@ -54,26 +41,11 @@ export const HeroStyles = styled.div`
             height: 400px;
             margin-top: 5%;
             margin-left:5%;
-            // margin-top: 10px;
-            // display: flex;
             flex-flow: row nowrap;
-            
-         
-
-            // left: 39px;
-             top: 10px;
-            // align-items: center;
+            top: 10px;
             background: rgba(227, 252, 255, 0.53);
             border-radius: 30px;
 
-
-            // @media screen and (min-width: 1000px) {
-
-            //     width: 350px;
-            //     margin-top: 0px;
-            //     height: 450px;
-                
-            // }
 
 
             @media screen and (max-width: 768px) {
@@ -99,7 +71,7 @@ export const HeroStyles = styled.div`
 
                 display: grid;
                 width: 93%;
-                height: 16%;
+                height: 10%;
                 margin-left: 9px;
                 align-items: center;
                 background: #E6DADA;
@@ -117,29 +89,8 @@ export const HeroStyles = styled.div`
                     font-weight: bold;
                     justify-content: space-around;
 
-                    // .CurrentPrice {
-                    //     display: flex;
-                    //     // flex-flow: row nowrap;
-                    //     margin-left: 20%;
-                    //     font-family: "Poppins", sans-serif;
-                    //     font-size: 20px;
-                    //     font-weight: bold;
-    
-    
-                    // }
 
                 }
-
-                // .CurrentPrice {
-                //     display: flex;
-                //     // flex-flow: row nowrap;
-                //     margin-left: 20%;
-                //     font-family: "Poppins", sans-serif;
-                //     font-size: 20px;
-                //     font-weight: bold;
-
-
-                // }
 
 
 
@@ -156,6 +107,11 @@ export const HeroStyles = styled.div`
                 background: #E6DADA;
                 border-radius: 30px;
                 margin-top: inherit;
+
+                .voll {
+
+                    color: black;
+                }
                
             
 
@@ -205,9 +161,8 @@ export const HeroStyles = styled.div`
                 
                 display: grid;
                 width: 20%;
-                height: 13%;
+                height: 8%;
                 margin-top: 10px;
-                // margin-left: 27%;
                 align-items: center;
                 background: #E6DADA;
                 border-radius: 30px;
